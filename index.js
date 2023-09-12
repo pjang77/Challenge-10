@@ -1,5 +1,5 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
+import inquirer from "inquirer";
+import fs from "fs";
 
 async function getUserInput() {
   const userInput = await inquirer.prompt([
