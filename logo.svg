@@ -1,6 +1,6 @@
 
-      <svg width="300" height="200" xmlns="http://wwwinstal.w3.org/2000/svg">
-        <rect width="300" height="200" fill="red" />
-        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="Blu">Pol</text>
+      <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="200" fill="blue" />
+        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" fill="Blue">123</text>
       </svg>
     

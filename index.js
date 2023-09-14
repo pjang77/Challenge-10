@@ -30,6 +30,22 @@ async function getUserInput() {
 }
 
 function generateSVG(text, textColor, shape, shapeColor) {
+  let shapeSVG = "";
+
+  switch (shape) {
+    case "circle":
+      shapeSVG = `<circle cx="150" cy="100" r="50" fill="${shapeColor}" />`;
+      break;
+    case "triangle":
+      shapeSVG = `<polygon points="150,50 100,150 200,150" fill="${shapeColor}" />`;
+      break;
+    case "square":
+      shapeSVG = `<rect width="100" height="100" x="100" y="50" fill="${shapeColor}" />`;
+      break;
+    default:
+      break;
+  }
+
   return `
       <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
         <rect width="300" height="200" fill="${shapeColor}" />
