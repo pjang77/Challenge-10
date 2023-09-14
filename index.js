@@ -42,8 +42,6 @@ function generateSVG(text, textColor, shape, shapeColor) {
     case "square":
       shapeSVG = `<rect width="100" height="100" x="100" y="50" fill="${shapeColor}" />`;
       break;
-    default:
-      break;
   }
 
   return `
